@@ -33,21 +33,21 @@ function draw() {
           button_3 = false;
           button_4 = false;
       }
-  }else if (mouseX < width * 0.25 && mouseY > height * 0.2 && mouseY < height * 0.4) {
+  }else if (mouseX < width * 0.25 && mouseY > height * 0.25 && mouseY < height * 0.5) {
       if (mouseIsPressed) {
           button_1 = false;
           button_2 = true;
           button_3 = false;
           button_4 = false;
       }
-  }else if (mouseX < width * 0.25 && mouseY > height * 0.4 && mouseY < height * 0.6) {
+  }else if (mouseX < width * 0.25 && mouseY > height * 0.5 && mouseY < height * 0.75) {
     if (mouseIsPressed) {
         button_1 = false;
         button_2 = false;
         button_3 = true;
         button_4 = false;
     }
-}else if (mouseX < width * 0.25 && mouseY > height * 0.6 && mouseY < height) {
+}else if (mouseX < width * 0.25 && mouseY > height * 0.75 && mouseY < height) {
     if (mouseIsPressed) {
         button_1 = false;
         button_2 = false;
